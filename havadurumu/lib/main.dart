@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:havadurumu/screens/home_page.dart';
 
 void main() {
   runApp(const Home());
@@ -9,6 +10,6 @@ class Home extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp();
+    return MaterialApp(home: HomePage());
   }
 }
